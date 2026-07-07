@@ -1,7 +1,7 @@
-#Rohan wants to build a wearing weather-appropriate clothes program.
+#Rohan wants to build a wearing weather-appropriate clothes program for wearing light clothes.
 # Temperature is measured in °C
 A = int(input("Enter your randomly chosen temperature."))
-if A <= 10:
-    print("Wear pants, a jacket and sweater. But if the temperature is way below -10, wear a beanie, and thicker winter clothes.")
+if A <= 18:
+    print("It is appropriate to wear light clothes.")
 else:
-    print("Wear pants and a jacket, but if just right or warm, wear just a shirt, and shorts to maintain temperature in the human body.")
+    print("It is not appropriate to wear light clothes.")
